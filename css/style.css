@@ -383,6 +383,7 @@ caption {
 .imgSize2Contact {
     width: 300px;
     margin-left: 25em;
+    margin-top: 10em;
 
 
 }
@@ -459,5 +460,57 @@ caption {
         display: none;
     }
 
+
+}
+
+/* MEDIA QUERY Mobile last 480px */
+@media (max-width: 480px) {
+
+
+    /* FOFUCS STYLE */
+
+    .carousel-item iframe {
+        width: 480px;
+    }
+
+    /* AGENDA */
+    .section1 article table {
+        width: 100px
+    }
+
+    /* CONTACTO STYLE */
+    .focusH1Style {
+        padding: 0px;
+    }
+
+    .pSize1 {
+        width: 300px;
+    }
+
+    .section4 {
+        align-items: center;
+    }
+
+    .container section iframe {
+        display: none;
+    }
+
+    .imgSize2Contact {
+        display: none;
+    }
+
+    .articleMod3 textarea {
+        margin: 1em;
+        width: 300px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .textMargEdit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
 }
