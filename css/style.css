@@ -121,11 +121,11 @@ body {
 }
 
 .divFooterMod1 {
-    margin: auto;
+    margin-right: 3em;
 }
 
 .divFooterMod2 {
-    margin: auto;
+    margin-right: 3em;
 }
 
 .divFooterMod1 img {
@@ -142,6 +142,7 @@ body {
     background-color: #827397;
     align-items: center;
     text-align: center;
+
 
 
 }
@@ -305,6 +306,7 @@ caption {
     font-weight: bold;
     margin-bottom: 1em;
     transition: 1s;
+
 }
 
 .buttonStyle2:hover {
@@ -313,6 +315,114 @@ caption {
     color: white;
     cursor: pointer;
     transform: scale(1.2);
+
+
+}
+
+/* FOCUS STYLE */
+/* CONTACTO STYLES */
+.section4 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
+
+.section4 h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+
+.articleMod3 {
+    display: flex;
+
+    text-align: left;
+    margin-top: 3em;
+
+}
+
+.articleMod3 select {
+    border: solid 2px black;
+    border-radius: 10px;
+    font-size: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.articleMod3 textarea {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: solid 2px black;
+    border-radius: 10px;
+
+}
+
+.articleMod3 input {
+    border: solid 2px black;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-size: 1em;
+    transition: .5s;
+
+}
+
+.articleMod3 input:focus {
+    transform: scale(1.2);
+    border-color: #363062;
+}
+
+.articleMod3 input::placeholder {
+    text-align: center;
+}
+
+.imgSize2Contact {
+    width: 300px;
+    margin-left: 25em;
+
+
+}
+
+.textMargEdit {
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.textMargEdit2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.6em;
+}
+
+
+.formMod {
+    display: flex;
+    flex-direction: column;
+    max-width: 18em;
+    text-align: left;
+    align-items: center;
+    margin-right: 3em;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+
+.pSize1 {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    border: solid #363062 2px;
+    background-color: white;
+    color: black;
+    opacity: 0.8;
 
 
 }
@@ -341,6 +451,7 @@ caption {
     div a button {
         display: none;
     }
+
 }
 
 @media (max-width: 500px) {
