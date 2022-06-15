@@ -481,14 +481,20 @@ caption {
     /* CONTACTO STYLE */
     .focusH1Style {
         padding: 0px;
+        margin: auto;
+        
     }
+   
 
     .pSize1 {
         width: 300px;
+        margin: auto;
+        margin-right: 3em;
     }
 
     .section4 {
         align-items: center;
+        
     }
 
     .container section iframe {
@@ -498,7 +504,9 @@ caption {
     .imgSize2Contact {
         display: none;
     }
-
+.articleMod3{
+    justify-content: center;
+}
     .articleMod3 textarea {
         margin: 1em;
         width: 300px;
@@ -512,5 +520,8 @@ caption {
         align-items: center;
         text-align: center;
     }
-
+.tablaStyle{
+    width: 20px
+    
+}
 }
